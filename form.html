@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Pengisian KTP</title>
+	<title>Pengisian KTP</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<script type="text/javascript">
+  alert("Anda masuk Pengisian KTP")
 </script>
-<body>
-  <form>
-    <pre>
+<body class="form">
+	<form method="POST" action="txtktp.php">
+		<pre>
 <center><h1>Form Pengisian KTP</h1></center>
 NIK :                      <input type="text" name="nik"><br>
 Nama :                     <input type="text" name="nama"><br>
@@ -19,18 +22,17 @@ Kecamatan :                <input type="text" name="kec"><br>
 Agama :                    <select style="width: 200;" name="agama">
       <option></option>
       <option>Islam</option>
-      <option>Kristen</option>
-      <option>Khatolik</option>
-      <option>Hindu</option>
-      <option>Budha</option>
-      <option>Konghucu</option>
-      </select><br>
+    <option>Kristen</option>
+    <option>Khatolik</option>
+    <option>Hindu</option>
+    <option>Budha</option>
+    <option>Konghucu</option>
+    </select><br>
 Status Perkawinan :        <input type="checkbox" name="sp">Kawin <input type="checkbox" name="sp">Belum Kawin<br>
 Pekerjaan :                <input type="text" name="job"><br>
 Kewarganegaraan :          <input type="text" name="warga"><br>
 Berlaku Hingga :           <input type="text" name="laku"><br>
-Tanda Tangan :             <input type="textarea" name="ttd">
 <center><input type="submit"></pre></center>
-  </form>
+	</form>
 </body>
 </html>
