@@ -1,0 +1,17 @@
+body {
+	background-image: url('segoro3.jpg');
+	background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+	font-family: arvo;
+	text-align: center;
+}
+.form {
+   color: black;
+}
+.validasi {
+	color: black;
+}
+.tabel {
+	color: yellow;
+}

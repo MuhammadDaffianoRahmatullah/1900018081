@@ -1,43 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Form Pengisian KTP</title>
+	<title>Pengisian KTP</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-	<form>
+<script type="text/javascript">
+  alert("Anda masuk Pengisian KTP")
+</script>
+<body class="form">
+	<form method="POST" action="txtktp.php">
 		<pre>
 <center><h1>Form Pengisian KTP</h1></center>
-NIK :                      <input type="text" name="NIK"><br>
-Nama :                     <input type="text" name="Nama"><br>
-Tempat, Tanggal Lahir :    <input type="text" name="Tempat, Tanggal Lahir"><br>
-Jenis Kelamin :            <input type="checkbox" name="Laki-laki">Laki-laki <input type="checkbox" name="Wanita">Wanita<br>
-Alamat :                   <textarea>
-			
-
-
-		                   </textarea><br>
-Rt/Rw :                    <input type="text" name="Rt/Rw"><br>
-Kel/Desa :                 <input type="text" name="Kel/Desa"><br>
-Kecamatan :                <input type="text" name="Kecamatan"><br>
-Agama :                    <select style="width: 200;">
-	    <option></option>
-	    <option>Islam</option>
-		<option>Kristen</option>
-		<option>Khatolik</option>
-		<option>Hindu</option>
-		<option>Budha</option>
-		<option>Konghucu</option>
-		</select><br>
-Status Perkawinan :        <input type="checkbox" name="Kawin">Kawin <input type="checkbox" name="Belum Kawin">Belum Kawin<br>
-Pekerjaan :                <input type="text" name="Pekerjaan"><br>
-Kewarganegaraan :          <input type="text" name="Kewarganegaraan"><br>
-Berlaku Hingga :           <input type="text" name="Berlaku Hingga"><br>
-Tanda Tangan :             <textarea>
-			
-
-
-		                   </textarea><br>
-<center><input type="submit" name="proses"></pre></center>
+NIK :                      <input type="text" name="nik"><br>
+Nama :                     <input type="text" name="nama"><br>
+Tempat, Tanggal Lahir :    <input type="text" name="ttl"><br>
+Jenis Kelamin :            <input type="checkbox" name="jk">Laki-laki <input type="checkbox" name="jk">Wanita<br>
+Alamat :                   <textarea name="alamat"></textarea><br>
+Rt/Rw :                    <input type="text" name="rtw"><br>
+Kel/Desa :                 <input type="text" name="keldes"><br>
+Kecamatan :                <input type="text" name="kec"><br>
+Agama :                    <select style="width: 200;" name="agama">
+      <option></option>
+      <option>Islam</option>
+    <option>Kristen</option>
+    <option>Khatolik</option>
+    <option>Hindu</option>
+    <option>Budha</option>
+    <option>Konghucu</option>
+    </select><br>
+Status Perkawinan :        <input type="checkbox" name="sp">Kawin <input type="checkbox" name="sp">Belum Kawin<br>
+Pekerjaan :                <input type="text" name="job"><br>
+Kewarganegaraan :          <input type="text" name="warga"><br>
+Berlaku Hingga :           <input type="text" name="laku"><br>
+<center><input type="submit"></pre></center>
 	</form>
 </body>
 </html>
